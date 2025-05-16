@@ -1,10 +1,10 @@
-# LiteSaver 💸
+# LiteSaver 
 
 LiteSaver is a **personal finance tracking app** designed to be simple for users but robust under the hood. It allows users to **track income and expenses**, **set budgets**, **create savings goals**, and **generate reports** — all while keeping the user interface clean and intuitive.
 
 ---
 
-## 📌 Features
+## Features
 
 ### Backend (FastAPI)
 - User Registration and Login (JWT Auth)
@@ -25,7 +25,7 @@ LiteSaver is a **personal finance tracking app** designed to be simple for users
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer        | Technology      |
 |--------------|-----------------|
@@ -37,5 +37,26 @@ LiteSaver is a **personal finance tracking app** designed to be simple for users
 
 ---
 
-## 📁 Project Structure (Backend)
+## Project Structure (Backend)
+liteSaverBackend/
+├── app/
+│ ├── main.py # Entry point
+│ ├── routers/ # Route modules
+│ ├── models/ # Pydantic schemas
+│ ├── services/ # Business logic
+│ ├── database/ # DB connection and queries
+│ └── core/ # Config, security, lifecycle, dependencies
+
+## Project Structure (Frontend)
+my_frontend/
+├── lib/
+│ ├── models/ # Data models
+│ ├── screens/ # UI screens
+│ ├── service/ # Business logic / API calls
+│ └── main.dart # App entry point
+├── test/ # Unit and widget tests
+├── pubspec.yaml # Project metadata and dependencies
+├── README.md # Project overview and instructions
+
+
 
