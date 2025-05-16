@@ -47,6 +47,8 @@ liteSaverBackend/
 │ ├── database/ # DB connection and queries
 │ └── core/ # Config, security, lifecycle, dependencies
 
+--
+
 ## Project Structure (Frontend)
 my_frontend/
 ├── lib/
