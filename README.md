@@ -35,9 +35,9 @@ LiteSaver is a **personal finance tracking app** designed to be simple for users
 | DB Driver    | asyncpg         |
 | Auth         | JWT (HS256)     |
 
----
 
 ## Project Structure (Backend)
+```
 liteSaverBackend/
 ├── app/
 │ ├── main.py # Entry point
@@ -46,10 +46,10 @@ liteSaverBackend/
 │ ├── services/ # Business logic
 │ ├── database/ # DB connection and queries
 │ └── core/ # Config, security, lifecycle, dependencies
-
---
+```
 
 ## Project Structure (Frontend)
+```
 my_frontend/
 ├── lib/
 │ ├── models/ # Data models
@@ -59,6 +59,7 @@ my_frontend/
 ├── test/ # Unit and widget tests
 ├── pubspec.yaml # Project metadata and dependencies
 ├── README.md # Project overview and instructions
+```
 
 
 
